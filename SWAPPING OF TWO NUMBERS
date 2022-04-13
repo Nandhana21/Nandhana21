@@ -1,0 +1,15 @@
+#include<studio.h>
+int main()
+{
+   int a,b;
+   a=10;
+   b=20;
+    printf("\nBEFORE SWAPPING")
+printf("\nThe value of a is %d\n
+
+
+
+
+
+
+}
