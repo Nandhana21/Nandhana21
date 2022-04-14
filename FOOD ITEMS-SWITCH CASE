@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    switch(n)
+    {
+         case 1:
+               printf("Food item - Biriyani\n");
+               printf("Price -Rs 110");
+               break;
+         case 2:
+               printf("Food item - Fried rice\n");
+               printf("Price -Rs 80");
+               break;
+         case 3:
+               printf("Food item - Pasta\n");
+               printf("Price -Rs 120");
+               break;
+         case 4:
+               printf("Food item - Dosa\n");
+               printf("Price -Rs 40");
+               break;
+         case 5:
+               printf("Food item - French Fries\n");
+               printf("Price -Rs 99");
+               break;
+         default:
+               printf("Please enter any number between 1 to 5");
+               break;
+     }
+    return 0;
+}
